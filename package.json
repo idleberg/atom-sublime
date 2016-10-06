@@ -1,6 +1,6 @@
 {
   "name": "sublime",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A meta-package to bring some of Sublime Text's features to Atom",
   "license": "MIT",
   "repository": {
