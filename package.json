@@ -1,0 +1,36 @@
+{
+  "name": "sublime",
+  "version": "0.0.0",
+  "description": "A meta packge to make Atom more like Sublime TExt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idleberg/atom-sublime"
+  },
+  "keywords": [
+    "toolbar",
+    "tool-bar",
+    "package developer"
+  ],
+  "main": "./lib/tool-bar",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "browse",
+    "build",
+    "minimap",
+    "multi-cursor",
+    "set-syntax"
+  ],
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  }
+}
