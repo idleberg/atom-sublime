@@ -16,6 +16,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "package-deps": [
+    "atom-wrap-in-tag",
+    "auto-update-plus",
     "browse",
     "build",
     "linter",
@@ -25,7 +27,8 @@
     "sublime-block-comment",
     "sublime-style-column-selection",
     "sublime-word-navigation",
-    "tag"
+    "tag",
+    "text-manipulation"
   ],
   "dependencies": {
     "atom-package-deps": "^4.3.1"
