@@ -12,7 +12,7 @@
     "tool-bar",
     "package developer"
   ],
-  "main": "./lib/tool-bar",
+  "main": "./lib/sublime",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
