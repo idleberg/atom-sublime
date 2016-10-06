@@ -8,9 +8,8 @@
     "url": "https://github.com/idleberg/atom-sublime"
   },
   "keywords": [
-    "toolbar",
-    "tool-bar",
-    "package developer"
+    "sublime text",
+    "sublimetext"
   ],
   "main": "./lib/sublime",
   "engines": {
