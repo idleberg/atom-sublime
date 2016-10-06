@@ -37,16 +37,16 @@ $ git clone https://github.com/idleberg/atom-sublime sublime
 
 This package makes use of [atom-package-deps](https://github.com/steelbrain/package-deps) to automatically install the following packages:
 
-* [`browse`](https://atom.io/package/browse) – Browse packages folder
-* [`build`](https://atom.io/package/build) – Provider for Build Tools
-* [`linter`](https://atom.io/package/linter) – Show errors inline
-* [`minimap`](https://atom.io/package/minimap)
-* [`multi-cursor`](https://atom.io/package/multi-cursor)
-* [`set-syntax`](https://atom.io/package/set-syntax) – Set syntax from the command line
-* [`sublime-block-comment`](https://atom.io/package/sublime-block-comment)
-* [`sublime-style-column-selection`](https://atom.io/package/sublime-style-column-selection)
-* [`sublime-word-navigation`](https://atom.io/package/sublime-word-navigation)
-* [`tag`](https://atom.io/package/tag) – Autoclose tags
+* [`browse`](https://atom.io/packages/browse) – Browse packages folder
+* [`build`](https://atom.io/packages/build) – Provider for Build Tools
+* [`linter`](https://atom.io/packages/linter) – Show errors inline
+* [`minimap`](https://atom.io/packages/minimap)
+* [`multi-cursor`](https://atom.io/packages/multi-cursor)
+* [`set-syntax`](https://atom.io/packages/set-syntax) – Set syntax from the command line
+* [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
+* [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
+* [`sublime-word-navigation`](https://atom.io/packages/sublime-word-navigation)
+* [`tag`](https://atom.io/packages/tag) – Autoclose tags
 
 To disabled individual packages, go to the Atom settings.
 
