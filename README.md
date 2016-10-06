@@ -37,16 +37,16 @@ $ git clone https://github.com/idleberg/atom-sublime sublime
 
 This package makes use of [atom-package-deps](https://github.com/steelbrain/package-deps) to automatically install the following packages:
 
-[`browse`](https://atom.io/package/browse)
-[`build`](https://atom.io/package/build)
-[`linter`](https://atom.io/package/linter)
-[`minimap`](https://atom.io/package/minimap)
-[`multi-cursor`](https://atom.io/package/multi-cursor)
-[`set-syntax`](https://atom.io/package/set-syntax)
-[`sublime-block-comment`](https://atom.io/package/sublime-block-comment)
-[`sublime-style-column-selection`](https://atom.io/package/sublime-style-column-selection)
-[`sublime-word-navigation`](https://atom.io/package/sublime-word-navigation)
-[`tag`](https://atom.io/package/tag)
+* [`browse`](https://atom.io/package/browse)
+* [`build`](https://atom.io/package/build)
+* [`linter`](https://atom.io/package/linter)
+* [`minimap`](https://atom.io/package/minimap)
+* [`multi-cursor`](https://atom.io/package/multi-cursor)
+* [`set-syntax`](https://atom.io/package/set-syntax)
+* [`sublime-block-comment`](https://atom.io/package/sublime-block-comment)
+* [`sublime-style-column-selection`](https://atom.io/package/sublime-style-column-selection)
+* [`sublime-word-navigation`](https://atom.io/package/sublime-word-navigation)
+* [`tag`](https://atom.io/package/tag)
 
 ## Contribute
 
