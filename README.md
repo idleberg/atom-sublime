@@ -37,6 +37,8 @@ $ git clone https://github.com/idleberg/atom-sublime sublime
 
 This package makes use of [atom-package-deps](https://github.com/steelbrain/package-deps) to automatically install the following packages:
 
+* [`atom-wrap-in-tag`](https://atom.io/packages/atom-wrap-in-tag) – Wrap text in HTML tags
+* [`auto-update-plus`](https://atom.io/packages/auto-update-plus) – Automatically update packages
 * [`browse`](https://atom.io/packages/browse) – Browse packages folder
 * [`build`](https://atom.io/packages/build) – Provider for Build Tools
 * [`linter`](https://atom.io/packages/linter) – Show errors inline
@@ -47,6 +49,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
 * [`sublime-word-navigation`](https://atom.io/packages/sublime-word-navigation)
 * [`tag`](https://atom.io/packages/tag) – Autoclose tags
+* [`text-manipulation`](https://atom.io/packages/text-manipulation) – Convert case and more
 
 To disabled individual packages, go to the Atom settings.
 
