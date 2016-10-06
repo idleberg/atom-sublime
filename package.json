@@ -19,9 +19,14 @@
   "package-deps": [
     "browse",
     "build",
+    "linter",
     "minimap",
     "multi-cursor",
-    "set-syntax"
+    "set-syntax",
+    "sublime-block-comment",
+    "sublime-style-column-selection",
+    "sublime-word-navigation",
+    "tag"
   ],
   "consumedServices": {
     "tool-bar": {
