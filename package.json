@@ -27,13 +27,6 @@
     "sublime-word-navigation",
     "tag"
   ],
-  "consumedServices": {
-    "tool-bar": {
-      "versions": {
-        "^0 || ^1": "consumeToolBar"
-      }
-    }
-  },
   "dependencies": {
     "atom-package-deps": "^4.3.1"
   }
