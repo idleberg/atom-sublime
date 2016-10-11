@@ -33,6 +33,13 @@ Clone repository as `sublime`:
 $ git clone https://github.com/idleberg/atom-sublime sublime
 ```
 
+Install Node dependencies:
+
+```bash
+$ cd sublime
+$ yarn || npm install
+```
+
 ### Dependencies
 
 This package makes use of [atom-package-deps](https://github.com/steelbrain/package-deps) to automatically install the following packages:
