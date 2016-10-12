@@ -54,6 +54,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
 * [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
 * [`sublime-word-navigation`](https://atom.io/packages/sublime-word-navigation)
+* [`sublimify`](https://atom.io/themes/sublimify) – Theme
 * [`tag`](https://atom.io/packages/tag) – Autoclose tags
 * [`text-manipulation`](https://atom.io/packages/text-manipulation) – Convert case and more
 
