@@ -33,10 +33,9 @@ Clone repository as `sublime`:
 $ git clone https://github.com/idleberg/atom-sublime sublime
 ```
 
-Install Node dependencies:
+Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ cd sublime
 $ yarn || npm install
 ```
 
