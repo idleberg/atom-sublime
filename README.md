@@ -15,7 +15,7 @@ Install `sublime` from Atom's [Package Manager](http://flight-manual.atom.io/usi
 
 `$ apm install sublime`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
