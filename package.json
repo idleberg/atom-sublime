@@ -20,6 +20,7 @@
     "auto-update-plus",
     "browse",
     "build",
+    "ctrl-dir-scroll",
     "linter",
     "minimap",
     "multi-cursor",
