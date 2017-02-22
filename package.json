@@ -23,6 +23,7 @@
     "ctrl-dir-scroll",
     "minimap",
     "multi-cursor",
+    "satisfy-dependencies",
     "set-syntax",
     "sublime-block-comment",
     "sublime-style-column-selection",
