@@ -2,12 +2,14 @@
 # yarn lockfile v1
 
 
-atom-package-deps@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.3.1.tgz#7a3655dd2224c72aceaf481968f834f67e9a2870"
+atom-package-deps@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.4.1.tgz#c8a2694cb3ebca54b88bf967d224947260b362cf"
   dependencies:
     atom-package-path "^1.1.0"
+    sb-config-file "^3.0.1"
     sb-exec "^3.0.1"
+    tildify "^1.2.0"
 
 atom-package-path@^1.1.0:
   version "1.1.0"
@@ -15,19 +17,112 @@ atom-package-path@^1.1.0:
   dependencies:
     sb-callsite "^1.1.2"
 
+balanced-match@^0.4.1:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
+
+brace-expansion@^1.0.0:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.6.tgz#7197d7eaa9b87e648390ea61fc66c84427420df9"
+  dependencies:
+    balanced-match "^0.4.1"
+    concat-map "0.0.1"
+
+concat-map@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+
 consistent-env@^1.2.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/consistent-env/-/consistent-env-1.3.0.tgz#8737304b1803a18a998c6075c7a09071a1ca926f"
   dependencies:
     lodash.uniq "^4.5.0"
 
+fs.realpath@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
+
+glob@^7.0.5:
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.1.tgz#805211df04faaf1c63a3600306cdf5ade50b2ec8"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.2"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+graceful-fs@^4.1.11:
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
+
+imurmurhash@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
+
+inflight@^1.0.4:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
+  dependencies:
+    once "^1.3.0"
+    wrappy "1"
+
+inherits@2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
+
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
+minimatch@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.3.tgz#2a4e4090b96b2db06a9d7df01055a62a77c9b774"
+  dependencies:
+    brace-expansion "^1.0.0"
+
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+
+mkdirp@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
+  dependencies:
+    minimist "0.0.8"
+
+once@^1.3.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
+  dependencies:
+    wrappy "1"
+
+os-homedir@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
+
+path-is-absolute@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
+
+rimraf@^2.5.4:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.0.tgz#89b8a0fe432b9ff9ec9a925a00b6cdb3a91bbada"
+  dependencies:
+    glob "^7.0.5"
+
 sb-callsite@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sb-callsite/-/sb-callsite-1.1.2.tgz#28191fb66d64e3a3ee92084a95a90fcb5102243b"
+
+sb-config-file@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/sb-config-file/-/sb-config-file-3.0.2.tgz#48b033a3e45dbc9ced9943af44921ab5eb834313"
+  dependencies:
+    sb-fs "^1.1.1"
+    strip-bom "^3.0.0"
+    write-file-atomic "^1.3.1"
 
 sb-exec@^3.0.1:
   version "3.1.0"
@@ -36,6 +131,14 @@ sb-exec@^3.0.1:
     consistent-env "^1.2.0"
     lodash.uniq "^4.5.0"
     sb-npm-path "^2.0.0"
+
+sb-fs@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-1.1.1.tgz#1fd6b071040e28a966e88e8ad2312192c6b6c1cd"
+  dependencies:
+    mkdirp "^0.5.1"
+    rimraf "^2.5.4"
+    sb-promisify "^2.0.1"
 
 sb-memoize@^1.0.2:
   version "1.0.2"
@@ -51,3 +154,29 @@ sb-npm-path@^2.0.0:
 sb-promisify@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.1.tgz#86c6cb4e1780c9b38c6fbe7e7873f8ab9677ce2a"
+
+slide@^1.1.5:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
+
+strip-bom@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
+
+tildify@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tildify/-/tildify-1.2.0.tgz#dcec03f55dca9b7aa3e5b04f21817eb56e63588a"
+  dependencies:
+    os-homedir "^1.0.0"
+
+wrappy@1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
+
+write-file-atomic@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-1.3.1.tgz#7d45ba32316328dd1ec7d90f60ebc0d845bb759a"
+  dependencies:
+    graceful-fs "^4.1.11"
+    imurmurhash "^0.1.4"
+    slide "^1.1.5"
