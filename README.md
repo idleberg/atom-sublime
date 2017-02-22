@@ -47,9 +47,9 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`auto-update-plus`](https://atom.io/packages/auto-update-plus) – Automatically update packages
 * [`browse`](https://atom.io/packages/browse) – Browse packages folder
 * [`build`](https://atom.io/packages/build) – Provider for Build Tools
-* [`linter`](https://atom.io/packages/linter) – Show errors inline
 * [`minimap`](https://atom.io/packages/minimap)
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
+* [`satisfy-dependencies`](https://atom.io/packages/satisfy-dependencies) – Satisfies package dependencies
 * [`set-syntax`](https://atom.io/packages/set-syntax) – Set syntax from the command line
 * [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
 * [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
