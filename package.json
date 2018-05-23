@@ -34,5 +34,8 @@
   ],
   "dependencies": {
     "atom-package-deps": "^4.4.1"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3"
   }
 }
