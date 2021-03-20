@@ -46,7 +46,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`atom-wrap-in-tag`](https://atom.io/packages/atom-wrap-in-tag) – Wrap text in HTML tags
 * [`auto-update-plus`](https://atom.io/packages/auto-update-plus) – Automatically update packages
 * [`browse`](https://atom.io/packages/browse) – Browse packages folder
-* [`build`](https://atom.io/packages/build) – Provider for Build Tools
+* [`buildium`](https://atom.io/packages/buildium) – Provider for Build Tools
 * [`minimap`](https://atom.io/packages/minimap)
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
 * [`satisfy-dependencies`](https://atom.io/packages/satisfy-dependencies) – Satisfies package dependencies
