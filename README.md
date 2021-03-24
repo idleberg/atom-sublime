@@ -20,18 +20,28 @@ Install `sublime` from Atom's [Package Manager](http://flight-manual.atom.io/usi
 
 Change to your Atom packages directory:
 
-```bash
-# Windows
-$ cd %USERPROFILE%\.atom\packages
+**Windows**
 
-# Linux & macOS
+```powershell
+# Powershell
+$ cd $Env:USERPROFILE\.atom\packages
+```
+
+```cmd
+:: Command Prompt
+$ cd %USERPROFILE%\.atom\packages
+```
+
+**Linux & macOS**
+
+```bash
 $ cd ~/.atom/packages/
 ```
 
-Clone repository as `sublime`:
+Clone repository as `build-tsc`:
 
 ```bash
-$ git clone https://github.com/idleberg/atom-sublime sublime
+$ git clone https://github.com/idleberg/atom-build-tsc build-tsc
 ```
 
 Inside the cloned directory, install Node dependencies:
