@@ -1,9 +1,10 @@
 # sublime
 
-[![apm](https://img.shields.io/apm/l/sublime.svg?style=flat-square)](https://atom.io/packages/sublime)
-[![apm](https://img.shields.io/apm/v/sublime.svg?style=flat-square)](https://atom.io/packages/sublime)
-[![apm](https://img.shields.io/apm/dm/sublime.svg?style=flat-square)](https://atom.io/packages/sublime)
-[![David](https://img.shields.io/david/idleberg/atom-sublime.svg?style=flat-square)](https://david-dm.org/idleberg/atom-sublime#info=dependencies)
+[![apm](https://flat.badgen.net/apm/license/sublime)](https://atom.io/packages/sublime)
+[![apm](https://flat.badgen.net/apm/v/sublime)](https://atom.io/packages/sublime)
+[![apm](https://flat.badgen.net/apm/dl/sublime)](https://atom.io/packages/sublime)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-tsc)](https://circleci.com/gh/idleberg/atom-build-tsc)
+[![David](https://flat.badgen.net/david/dep/idleberg/atom-sublime)](https://david-dm.org/idleberg/atom-sublime)
 
 A meta-package to bring some of Sublime Text's features to Atom
 
