@@ -48,7 +48,7 @@ Inside the cloned directory, install Node dependencies:
 
 ```bash
 $ yarn || npm install
-```
+``
 
 ### Dependencies
 
@@ -60,6 +60,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`buildium`](https://atom.io/packages/buildium) – Provider for Build Tools
 * [`minimap`](https://atom.io/packages/minimap)
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
+* [`package-control`](https://atom.io/packages/package-control) – Satisfies package dependencies
 * [`satisfy-dependencies`](https://atom.io/packages/satisfy-dependencies) – Satisfies package dependencies
 * [`set-syntax`](https://atom.io/packages/set-syntax) – Set syntax from the command line
 * [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
