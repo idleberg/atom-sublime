@@ -41,10 +41,8 @@
       "name": "multi-cursor"
     },
     {
-      "name": "package-control"
-    },
-    {
-      "name": "satisfy-dependencies"
+      "name": "package-control",
+      "minimumVersion": "0.4.0"
     },
     {
       "name": "set-syntax"
