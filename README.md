@@ -58,6 +58,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`auto-update-plus`](https://atom.io/packages/auto-update-plus) – Automatically update packages
 * [`browse`](https://atom.io/packages/browse) – Browse packages folder
 * [`buildium`](https://atom.io/packages/buildium) – Provider for Build Tools
+* [`mariana-syntax`](https://atom.io/packages/mariana-syntax) – syntax theme
 * [`minimap`](https://atom.io/packages/minimap)
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
 * [`package-control`](https://atom.io/packages/package-control) – Manages packages from the command palette

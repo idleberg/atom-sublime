@@ -38,6 +38,9 @@
       "name": "minimap"
     },
     {
+      "name": "mariana-syntax"
+    },
+    {
       "name": "multi-cursor"
     },
     {
