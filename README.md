@@ -58,7 +58,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`auto-update-plus`](https://atom.io/packages/auto-update-plus) – Automatically update packages
 * [`browse`](https://atom.io/packages/browse) – Browse packages folder
 * [`buildium`](https://atom.io/packages/buildium) – Provider for Build Tools
-* [`mariana-syntax`](https://atom.io/packages/mariana-syntax) – syntax theme
+* [`mariana-syntax`](https://atom.io/packages/mariana-syntax) – Syntax theme
 * [`minimap`](https://atom.io/packages/minimap)
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
 * [`package-control`](https://atom.io/packages/package-control) – Manages packages from the command palette
@@ -66,7 +66,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
 * [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
 * [`sublime-word-navigation`](https://atom.io/packages/sublime-word-navigation)
-* [`sublimify`](https://atom.io/themes/sublimify) – Theme
+* [`sublimify`](https://atom.io/themes/sublimify) – UI Theme
 * [`tag`](https://atom.io/packages/tag) – Autoclose tags
 * [`text-manipulation`](https://atom.io/packages/text-manipulation) – Convert case and more
 
