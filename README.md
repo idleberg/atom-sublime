@@ -38,16 +38,22 @@ $ cd %USERPROFILE%\.atom\packages
 $ cd ~/.atom/packages/
 ```
 
-Clone repository as `build-tsc`:
+Clone repository as `sublime`:
 
 ```bash
-$ git clone https://github.com/idleberg/atom-build-tsc build-tsc
+$ git clone https://github.com/idleberg/atom-sublime sublime
 ```
 
 Inside the cloned directory, install Node dependencies:
 
 ```bash
-$ yarn || npm install
+$ npm install
+```
+
+Build source:
+
+```bash
+$ npm run build
 ```
 
 ### Dependencies
