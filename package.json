@@ -44,11 +44,13 @@
       "name": "multi-cursor"
     },
     {
-      "name": "package-control",
-      "minimumVersion": "0.4.0"
+      "name": "package-control"
     },
     {
       "name": "set-syntax"
+    },
+    {
+      "name": "stacked-tabs"
     },
     {
       "name": "sublime-block-comment"

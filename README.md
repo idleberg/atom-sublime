@@ -69,6 +69,7 @@ This package makes use of [atom-package-deps](https://github.com/steelbrain/pack
 * [`multi-cursor`](https://atom.io/packages/multi-cursor)
 * [`package-control`](https://atom.io/packages/package-control) – Manages packages from the command palette
 * [`set-syntax`](https://atom.io/packages/set-syntax) – Set syntax from the command line
+* [`stacked-tabs`](https://atom.io/packages/stacked-tabs)
 * [`sublime-block-comment`](https://atom.io/packages/sublime-block-comment)
 * [`sublime-style-column-selection`](https://atom.io/packages/sublime-style-column-selection)
 * [`sublime-word-navigation`](https://atom.io/packages/sublime-word-navigation)
